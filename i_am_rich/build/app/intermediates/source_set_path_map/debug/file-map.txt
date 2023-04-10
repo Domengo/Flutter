@@ -1,0 +1,12 @@
+org.mycompany.i_am_rich.app-jetified-window-java-1.0.0-beta04-0 C:\Users\domin\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+org.mycompany.i_am_rich.app-core-1.6.0-1 C:\Users\domin\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+org.mycompany.i_am_rich.app-jetified-annotation-experimental-1.1.0-2 C:\Users\domin\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+org.mycompany.i_am_rich.app-jetified-window-1.0.0-beta04-3 C:\Users\domin\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+org.mycompany.i_am_rich.app-debug-4 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\android\app\src\debug\res
+org.mycompany.i_am_rich.app-main-5 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\android\app\src\main\res
+org.mycompany.i_am_rich.app-pngs-6 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\build\app\generated\res\pngs\debug
+org.mycompany.i_am_rich.app-resValues-7 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\build\app\generated\res\resValues\debug
+org.mycompany.i_am_rich.app-rs-8 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\build\app\generated\res\rs\debug
+org.mycompany.i_am_rich.app-mergeDebugResources-9 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.mycompany.i_am_rich.app-mergeDebugResources-10 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.mycompany.i_am_rich.app-merged_res-11 C:\Users\domin\OneDrive\Desktop\dart\dart2\test\i_am_rich\build\app\intermediates\merged_res\debug
