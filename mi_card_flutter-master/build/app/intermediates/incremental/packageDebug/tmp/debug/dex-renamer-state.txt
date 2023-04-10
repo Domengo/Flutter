@@ -1,4 +1,4 @@
-#Mon Apr 10 16:10:00 EAT 2023
+#Mon Apr 10 19:38:24 EAT 2023
 base.0=C\:\\Users\\domin\\OneDrive\\Desktop\\dart\\dart2\\test\\i_am_rich\\mi_card_flutter-master\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
