@@ -4,7 +4,10 @@ import 'reusable_card.dart';
 import 'button_button.dart';
 
 class ResultsPage extends StatelessWidget {
-  ResultsPage({required this.bmiResult, required this.resultText, required this.interpretation});
+  ResultsPage(
+      {required this.interpretation,
+      required this.bmiResult,
+      required this.resultText});
 
   final String bmiResult;
   final String resultText;
@@ -18,6 +21,7 @@ class ResultsPage extends StatelessWidget {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Expanded(
             child: Container(
@@ -35,19 +39,19 @@ class ResultsPage extends StatelessWidget {
               colour: activeCardColor,
               cardChild: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
                   Text(
-                    'NORMAL',
+                    resultText.toUpperCase(),
                     style: resultTextStyle,
                   ),
                   Text(
-                    '19.0',
+                    bmiResult,
                     style: BMITextStyle,
                   ),
                   Text(
-                    'Your BMI result is quite low, you should eat more!',
+                    interpretation,
                     style: bodyTextStyle,
                     textAlign: TextAlign.center,
                   ),

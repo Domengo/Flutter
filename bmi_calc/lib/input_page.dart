@@ -121,7 +121,7 @@ class _InputPageState extends State<InputPage> {
                           child: Slider(
                             value: height.toDouble(),
                             min: 120.0,
-                            max: 300.0,
+                            max: 220.0,
                             onChanged: (double newValue) {
                               setState(() {
                                 height = newValue.round();
@@ -239,9 +239,9 @@ class _InputPageState extends State<InputPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return ResultsPage(
+                      interpretation: calc.getInterpretation(),
                       bmiResult: calc.calculateBMI(),
                       resultText: calc.getResult(),
-                      interpretation: calc.getInterpretation(),
                     );
                   },
                 ),
