@@ -29,7 +29,7 @@ appThemeData() {
 headerFooterBoxDecoration(BuildContext context, bool isHeader) {
   final theme = Theme.of(context);
   return BoxDecoration(
-    color: theme.backgroundColor,
+    color: theme.colorScheme.error,
     border: Border(
         top: isHeader
             ? BorderSide.none
